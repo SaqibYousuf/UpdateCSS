@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: rgb(2, 51, 73);
+    color: white;
+}
+img{
+    width: 600px;
+    margin-top: 50px;
+}
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+    
+}
+.h1{
+    color: var(--base);
+}
+a {
+    color: var(--base);
+    text-decoration: none;
+}
+input{
+    width: 100px;
+}
